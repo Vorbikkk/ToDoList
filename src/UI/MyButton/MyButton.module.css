@@ -1,0 +1,10 @@
+.MyBtn{
+    box-sizing: content-box;
+    background-color: rgb(35, 142, 188);
+    width: 70px;
+    padding: 5px 10px;
+    color: #fff;
+    border-radius: 5px;
+    margin-top: 10px;
+    text-align: center;
+}

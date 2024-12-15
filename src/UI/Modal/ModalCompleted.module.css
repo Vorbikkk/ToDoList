@@ -1,0 +1,22 @@
+.Modal{
+    position: fixed;
+    left: 0;
+    right: 0;
+    top:0;
+    bottom: 0;
+    background-color: rgba(10, 10, 10, 0.4);
+}
+.Modal_content{
+position: absolute;
+left: 40%;
+top: 40%;
+width: 270px;    
+text-align: center;
+padding: 20px;
+margin: auto;
+background-color: rgb(240, 247, 247);
+}
+.btn_flex{
+    display: flex;
+    justify-content: space-between;
+}

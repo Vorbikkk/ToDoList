@@ -1,0 +1,8 @@
+.formUpdatePost{
+    border-radius: 10px;
+    width: 270px;
+    padding: 25px;
+    border: 1px solid black;
+    margin: 30px auto 0 auto;
+    background-color: #fff;
+}

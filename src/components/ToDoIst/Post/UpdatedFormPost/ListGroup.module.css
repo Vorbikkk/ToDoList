@@ -1,0 +1,11 @@
+.block_group{ 
+    position: fixed;
+    max-height: 200px;
+    background-color: #fff;
+    overflow-y: scroll;
+}
+.group_item{
+    width: 190px;
+    padding: 5px;
+    border: 1px solid rgb(18, 16, 16);
+}

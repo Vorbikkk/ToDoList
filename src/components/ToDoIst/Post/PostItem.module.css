@@ -1,0 +1,32 @@
+
+.postBlock{
+    background-color: rgb(239, 243, 248);
+    border-radius:10px ;
+    width: 400px;
+    padding:15px 10px;
+    margin: 10px 0;
+    display: flex;
+}
+.redBlock{
+    background-color: rgb(185, 21, 21);
+}
+.greenBlock{
+    background-color: green;
+}
+.textBlock{
+    word-break: break-all;
+    padding: 5px 10px;
+    width: 230px;
+}
+.completed{
+    background-color: green;
+    width: 20px;
+    padding: 5px;
+    border-radius: 5px;
+}
+.delete{
+    background-color: rgb(185, 21, 21);
+    width: 20px;
+    padding: 5px;
+    border-radius: 5px;
+}

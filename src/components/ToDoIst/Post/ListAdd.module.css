@@ -1,0 +1,13 @@
+.list_add{
+    margin: 20px auto;
+    border: 1px solid black;
+    padding: 15px;
+    max-width: 500px;
+    background-color: rgb(195, 93, 93);
+    border-radius: 20px;
+}
+
+.box_center{
+margin: 10px auto;
+width: 400px;
+}

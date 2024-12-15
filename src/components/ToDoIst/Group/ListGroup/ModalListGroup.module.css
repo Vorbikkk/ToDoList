@@ -1,0 +1,29 @@
+.block_group{
+    background-color: #fefefe;
+    width: 300px;
+    height: 400px;
+    border-radius: 10px;
+    padding: 10px;
+    border: 1px solid black;
+    position: fixed;
+    left: 20px;
+    top: 20px;
+
+}
+.group_item{
+    border: 1px solid black;
+    padding: 5px 10px;
+    width: 100%;
+    cursor: pointer;
+}
+.group_item:focus{
+    border: 1px solid rgb(184, 72, 72);
+}
+.close{
+    width: 15px;
+    height: 15px;
+    background-color: red;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
