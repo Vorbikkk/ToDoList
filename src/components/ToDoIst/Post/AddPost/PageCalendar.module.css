@@ -1,0 +1,46 @@
+.block_header{
+    display: flex;
+color: #fff;
+background-color: rgb(49, 116, 175);
+justify-content: center;
+height: 30px;
+box-sizing: border-box;
+}
+.headerYear{
+    margin: 0 20px;
+}
+.btn_slide{
+    display: block;
+    max-width: 60px;
+    height:20px;
+    background-color:brown ;
+    cursor: pointer;
+    margin:0 5px;
+}
+.Calendar{
+   width: 500px;
+   height: 600px;
+   background-color: rgb(30, 141, 197);
+   margin: 100px auto;
+}
+.container_day{
+    display: flex;
+    justify-content: space-around;
+    flex-flow: column wrap;
+    height: 80%;
+}
+.block_day{
+    width: 64px;
+    height: 64px;
+    border-radius: 5px;
+    background-color: rgb(238, 240, 241);
+    text-align: center;
+    font-size: bold;
+    color: blue;
+}
+.choose{
+    
+    text-align: center;
+    background-color: rgb(234, 14, 14);
+    color: white;
+}

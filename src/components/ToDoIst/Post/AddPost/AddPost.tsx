@@ -7,7 +7,7 @@ import ModalListGroup from '../../Group/ListGroup/ModalListGroup';
 import { useAppDispatch, useAppSelector } from '../../../../appRedux/app/hooks';
 import { groupSelectById } from '../../../../appRedux/Slice/groupSlice';
 import { setPosts,postSelect } from '../../../../appRedux/Slice/postSlice';
-import Calendar from 'react-calendar'
+import Calendar from './Calendar'
 
 interface AddPostProps{
     numberPost:number,
@@ -41,6 +41,7 @@ const AddPost:FC<AddPostProps> = ({numberPost}) => {
         <div className={cl.formAddPost}>
             <div className={cl.block_inline}>
                <MyInput value={title} onChange={(e)=>setTitle(e.target.value)} />
+                <Calendar/>
             </div>
            <div className={cl.block_inline}>
            <MyButton onClick={()=>setActive(true)}>список групп</MyButton>
